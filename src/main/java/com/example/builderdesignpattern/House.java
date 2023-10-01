@@ -27,4 +27,9 @@ public class House implements HousePlan{
     public void setInterior(String interior) {
             this.interior = interior;
     }
+
+    @Override
+    public String toString() {
+        return this.interior + " "+this.structure + " "+ this.roof;
+    }
 }
